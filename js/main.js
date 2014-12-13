@@ -16,7 +16,7 @@
         //             dos imágenes al mismo tiempo.
         locked = false,
 
-        // {number} numero de nodos
+        // {number} numero de nodos celda
         ncells
         ;
 
@@ -46,6 +46,7 @@
     }
 
     // TODO: Llamada a la función principal `setImages()`.
+    setImages(config, cells);
 
 
 
