@@ -40,10 +40,12 @@
 
     // TODO: Añadir manejadores del evento 'click' a todas las celdas.
 
-
+    ncells = cells.length;
+    for (var i = 0; i < ncells; i++) {
+        cells[i].addEventListener('click', clickHandler, false);
+    }
 
     // TODO: Llamada a la función principal `setImages()`.
-
 
 
 
