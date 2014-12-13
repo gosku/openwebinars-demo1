@@ -14,7 +14,11 @@
 
         // {Boolean} - Bandera de bloqueo para evitar que se seleccionen más de
         //             dos imágenes al mismo tiempo.
-        locked = false;
+        locked = false,
+
+        // {number} numero de nodos
+        ncells
+        ;
 
 
     config = {
