@@ -32,7 +32,7 @@
 
     // TODO: Usar algún metodo del DOM para obtener todas celdas de la cuadrícula.
 
-
+    cells = document.querySelectorAll('.grid-cell');
 
     // TODO: Añadir manejadores del evento 'click' a todas las celdas.
 
